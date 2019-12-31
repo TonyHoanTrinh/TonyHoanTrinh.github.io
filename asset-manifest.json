@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/reactjs_version_personal_website/static/css/main.f5283f9e.chunk.css",
+    "main.js": "/reactjs_version_personal_website/static/js/main.93ed6219.chunk.js",
+    "main.js.map": "/reactjs_version_personal_website/static/js/main.93ed6219.chunk.js.map",
+    "runtime-main.js": "/reactjs_version_personal_website/static/js/runtime-main.99ba78b5.js",
+    "runtime-main.js.map": "/reactjs_version_personal_website/static/js/runtime-main.99ba78b5.js.map",
+    "static/js/2.e04c03b4.chunk.js": "/reactjs_version_personal_website/static/js/2.e04c03b4.chunk.js",
+    "static/js/2.e04c03b4.chunk.js.map": "/reactjs_version_personal_website/static/js/2.e04c03b4.chunk.js.map",
+    "index.html": "/reactjs_version_personal_website/index.html",
+    "precache-manifest.95883a5ac78cf5385bfc4d11fd52883f.js": "/reactjs_version_personal_website/precache-manifest.95883a5ac78cf5385bfc4d11fd52883f.js",
+    "service-worker.js": "/reactjs_version_personal_website/service-worker.js",
+    "static/css/main.f5283f9e.chunk.css.map": "/reactjs_version_personal_website/static/css/main.f5283f9e.chunk.css.map",
+    "static/js/2.e04c03b4.chunk.js.LICENSE": "/reactjs_version_personal_website/static/js/2.e04c03b4.chunk.js.LICENSE",
+    "static/media/GithubLogo.svg": "/reactjs_version_personal_website/static/media/GithubLogo.76d344f0.svg",
+    "static/media/LinkedInLogo.svg": "/reactjs_version_personal_website/static/media/LinkedInLogo.8220d480.svg",
+    "static/media/MainSquare.jpg": "/reactjs_version_personal_website/static/media/MainSquare.a47d8011.jpg",
+    "static/media/Resume.pdf": "/reactjs_version_personal_website/static/media/Resume.89ca82cc.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.99ba78b5.js",
+    "static/js/2.e04c03b4.chunk.js",
+    "static/css/main.f5283f9e.chunk.css",
+    "static/js/main.93ed6219.chunk.js"
+  ]
+}
