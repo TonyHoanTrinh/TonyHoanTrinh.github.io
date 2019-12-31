@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.f5283f9e.chunk.css",
-    "main.js": "/home/static/js/main.437c5f5f.chunk.js",
-    "main.js.map": "/home/static/js/main.437c5f5f.chunk.js.map",
-    "runtime-main.js": "/home/static/js/runtime-main.b28e6937.js",
-    "runtime-main.js.map": "/home/static/js/runtime-main.b28e6937.js.map",
-    "static/js/2.e04c03b4.chunk.js": "/home/static/js/2.e04c03b4.chunk.js",
-    "static/js/2.e04c03b4.chunk.js.map": "/home/static/js/2.e04c03b4.chunk.js.map",
-    "index.html": "/home/index.html",
-    "precache-manifest.483ca99aea2bd40a64d62e7fd3433d18.js": "/home/precache-manifest.483ca99aea2bd40a64d62e7fd3433d18.js",
-    "service-worker.js": "/home/service-worker.js",
-    "static/css/main.f5283f9e.chunk.css.map": "/home/static/css/main.f5283f9e.chunk.css.map",
-    "static/js/2.e04c03b4.chunk.js.LICENSE": "/home/static/js/2.e04c03b4.chunk.js.LICENSE",
-    "static/media/GithubLogo.svg": "/home/static/media/GithubLogo.76d344f0.svg",
-    "static/media/LinkedInLogo.svg": "/home/static/media/LinkedInLogo.8220d480.svg",
-    "static/media/MainSquare.jpg": "/home/static/media/MainSquare.a47d8011.jpg",
-    "static/media/Resume.pdf": "/home/static/media/Resume.89ca82cc.pdf"
+    "main.css": "/personal_website/static/css/main.f5283f9e.chunk.css",
+    "main.js": "/personal_website/static/js/main.a6e23295.chunk.js",
+    "main.js.map": "/personal_website/static/js/main.a6e23295.chunk.js.map",
+    "runtime-main.js": "/personal_website/static/js/runtime-main.446a86dc.js",
+    "runtime-main.js.map": "/personal_website/static/js/runtime-main.446a86dc.js.map",
+    "static/js/2.e04c03b4.chunk.js": "/personal_website/static/js/2.e04c03b4.chunk.js",
+    "static/js/2.e04c03b4.chunk.js.map": "/personal_website/static/js/2.e04c03b4.chunk.js.map",
+    "index.html": "/personal_website/index.html",
+    "precache-manifest.043cd611c63421cb877987d3f86998a6.js": "/personal_website/precache-manifest.043cd611c63421cb877987d3f86998a6.js",
+    "service-worker.js": "/personal_website/service-worker.js",
+    "static/css/main.f5283f9e.chunk.css.map": "/personal_website/static/css/main.f5283f9e.chunk.css.map",
+    "static/js/2.e04c03b4.chunk.js.LICENSE": "/personal_website/static/js/2.e04c03b4.chunk.js.LICENSE",
+    "static/media/GithubLogo.svg": "/personal_website/static/media/GithubLogo.76d344f0.svg",
+    "static/media/LinkedInLogo.svg": "/personal_website/static/media/LinkedInLogo.8220d480.svg",
+    "static/media/MainSquare.jpg": "/personal_website/static/media/MainSquare.a47d8011.jpg",
+    "static/media/Resume.pdf": "/personal_website/static/media/Resume.89ca82cc.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.b28e6937.js",
+    "static/js/runtime-main.446a86dc.js",
     "static/js/2.e04c03b4.chunk.js",
     "static/css/main.f5283f9e.chunk.css",
-    "static/js/main.437c5f5f.chunk.js"
+    "static/js/main.a6e23295.chunk.js"
   ]
 }
