@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/TonyHoanTrinh.github.io/static/css/main.f5283f9e.chunk.css",
-    "main.js": "/TonyHoanTrinh.github.io/static/js/main.e74c2754.chunk.js",
-    "main.js.map": "/TonyHoanTrinh.github.io/static/js/main.e74c2754.chunk.js.map",
-    "runtime-main.js": "/TonyHoanTrinh.github.io/static/js/runtime-main.a2e0d688.js",
-    "runtime-main.js.map": "/TonyHoanTrinh.github.io/static/js/runtime-main.a2e0d688.js.map",
-    "static/js/2.e04c03b4.chunk.js": "/TonyHoanTrinh.github.io/static/js/2.e04c03b4.chunk.js",
-    "static/js/2.e04c03b4.chunk.js.map": "/TonyHoanTrinh.github.io/static/js/2.e04c03b4.chunk.js.map",
-    "index.html": "/TonyHoanTrinh.github.io/index.html",
-    "precache-manifest.835d0ac94786455b7327913f48701d79.js": "/TonyHoanTrinh.github.io/precache-manifest.835d0ac94786455b7327913f48701d79.js",
-    "service-worker.js": "/TonyHoanTrinh.github.io/service-worker.js",
-    "static/css/main.f5283f9e.chunk.css.map": "/TonyHoanTrinh.github.io/static/css/main.f5283f9e.chunk.css.map",
-    "static/js/2.e04c03b4.chunk.js.LICENSE": "/TonyHoanTrinh.github.io/static/js/2.e04c03b4.chunk.js.LICENSE",
-    "static/media/GithubLogo.svg": "/TonyHoanTrinh.github.io/static/media/GithubLogo.76d344f0.svg",
-    "static/media/LinkedInLogo.svg": "/TonyHoanTrinh.github.io/static/media/LinkedInLogo.8220d480.svg",
-    "static/media/MainSquare.jpg": "/TonyHoanTrinh.github.io/static/media/MainSquare.a47d8011.jpg",
-    "static/media/Resume.pdf": "/TonyHoanTrinh.github.io/static/media/Resume.89ca82cc.pdf"
+    "main.css": "/home/static/css/main.f5283f9e.chunk.css",
+    "main.js": "/home/static/js/main.d5648b9a.chunk.js",
+    "main.js.map": "/home/static/js/main.d5648b9a.chunk.js.map",
+    "runtime-main.js": "/home/static/js/runtime-main.b28e6937.js",
+    "runtime-main.js.map": "/home/static/js/runtime-main.b28e6937.js.map",
+    "static/js/2.e04c03b4.chunk.js": "/home/static/js/2.e04c03b4.chunk.js",
+    "static/js/2.e04c03b4.chunk.js.map": "/home/static/js/2.e04c03b4.chunk.js.map",
+    "index.html": "/home/index.html",
+    "precache-manifest.851913ccf38c1b920d82d22f6a8f7287.js": "/home/precache-manifest.851913ccf38c1b920d82d22f6a8f7287.js",
+    "service-worker.js": "/home/service-worker.js",
+    "static/css/main.f5283f9e.chunk.css.map": "/home/static/css/main.f5283f9e.chunk.css.map",
+    "static/js/2.e04c03b4.chunk.js.LICENSE": "/home/static/js/2.e04c03b4.chunk.js.LICENSE",
+    "static/media/GithubLogo.svg": "/home/static/media/GithubLogo.76d344f0.svg",
+    "static/media/LinkedInLogo.svg": "/home/static/media/LinkedInLogo.8220d480.svg",
+    "static/media/MainSquare.jpg": "/home/static/media/MainSquare.a47d8011.jpg",
+    "static/media/Resume.pdf": "/home/static/media/Resume.89ca82cc.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.a2e0d688.js",
+    "static/js/runtime-main.b28e6937.js",
     "static/js/2.e04c03b4.chunk.js",
     "static/css/main.f5283f9e.chunk.css",
-    "static/js/main.e74c2754.chunk.js"
+    "static/js/main.d5648b9a.chunk.js"
   ]
 }
