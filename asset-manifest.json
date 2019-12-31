@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/p/static/css/main.f5283f9e.chunk.css",
-    "main.js": "/p/static/js/main.10ca3873.chunk.js",
-    "main.js.map": "/p/static/js/main.10ca3873.chunk.js.map",
-    "runtime-main.js": "/p/static/js/runtime-main.624d9c9e.js",
-    "runtime-main.js.map": "/p/static/js/runtime-main.624d9c9e.js.map",
-    "static/js/2.e04c03b4.chunk.js": "/p/static/js/2.e04c03b4.chunk.js",
-    "static/js/2.e04c03b4.chunk.js.map": "/p/static/js/2.e04c03b4.chunk.js.map",
-    "index.html": "/p/index.html",
-    "precache-manifest.82e612e7678f9d58ae4a4f1114cce081.js": "/p/precache-manifest.82e612e7678f9d58ae4a4f1114cce081.js",
-    "service-worker.js": "/p/service-worker.js",
-    "static/css/main.f5283f9e.chunk.css.map": "/p/static/css/main.f5283f9e.chunk.css.map",
-    "static/js/2.e04c03b4.chunk.js.LICENSE": "/p/static/js/2.e04c03b4.chunk.js.LICENSE",
-    "static/media/GithubLogo.svg": "/p/static/media/GithubLogo.76d344f0.svg",
-    "static/media/LinkedInLogo.svg": "/p/static/media/LinkedInLogo.8220d480.svg",
-    "static/media/MainSquare.jpg": "/p/static/media/MainSquare.a47d8011.jpg",
-    "static/media/Resume.pdf": "/p/static/media/Resume.89ca82cc.pdf"
+    "main.css": "/TonyHoanTrinh.github.io/static/css/main.f5283f9e.chunk.css",
+    "main.js": "/TonyHoanTrinh.github.io/static/js/main.e74c2754.chunk.js",
+    "main.js.map": "/TonyHoanTrinh.github.io/static/js/main.e74c2754.chunk.js.map",
+    "runtime-main.js": "/TonyHoanTrinh.github.io/static/js/runtime-main.a2e0d688.js",
+    "runtime-main.js.map": "/TonyHoanTrinh.github.io/static/js/runtime-main.a2e0d688.js.map",
+    "static/js/2.e04c03b4.chunk.js": "/TonyHoanTrinh.github.io/static/js/2.e04c03b4.chunk.js",
+    "static/js/2.e04c03b4.chunk.js.map": "/TonyHoanTrinh.github.io/static/js/2.e04c03b4.chunk.js.map",
+    "index.html": "/TonyHoanTrinh.github.io/index.html",
+    "precache-manifest.835d0ac94786455b7327913f48701d79.js": "/TonyHoanTrinh.github.io/precache-manifest.835d0ac94786455b7327913f48701d79.js",
+    "service-worker.js": "/TonyHoanTrinh.github.io/service-worker.js",
+    "static/css/main.f5283f9e.chunk.css.map": "/TonyHoanTrinh.github.io/static/css/main.f5283f9e.chunk.css.map",
+    "static/js/2.e04c03b4.chunk.js.LICENSE": "/TonyHoanTrinh.github.io/static/js/2.e04c03b4.chunk.js.LICENSE",
+    "static/media/GithubLogo.svg": "/TonyHoanTrinh.github.io/static/media/GithubLogo.76d344f0.svg",
+    "static/media/LinkedInLogo.svg": "/TonyHoanTrinh.github.io/static/media/LinkedInLogo.8220d480.svg",
+    "static/media/MainSquare.jpg": "/TonyHoanTrinh.github.io/static/media/MainSquare.a47d8011.jpg",
+    "static/media/Resume.pdf": "/TonyHoanTrinh.github.io/static/media/Resume.89ca82cc.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.624d9c9e.js",
+    "static/js/runtime-main.a2e0d688.js",
     "static/js/2.e04c03b4.chunk.js",
     "static/css/main.f5283f9e.chunk.css",
-    "static/js/main.10ca3873.chunk.js"
+    "static/js/main.e74c2754.chunk.js"
   ]
 }
