@@ -1,26 +1,29 @@
 {
   "files": {
-    "main.css": "/personal_website/static/css/main.f5283f9e.chunk.css",
-    "main.js": "/personal_website/static/js/main.c98dde0f.chunk.js",
-    "main.js.map": "/personal_website/static/js/main.c98dde0f.chunk.js.map",
+    "main.css": "/personal_website/static/css/main.c6ddecce.chunk.css",
+    "main.js": "/personal_website/static/js/main.b434fe55.chunk.js",
+    "main.js.map": "/personal_website/static/js/main.b434fe55.chunk.js.map",
     "runtime-main.js": "/personal_website/static/js/runtime-main.446a86dc.js",
     "runtime-main.js.map": "/personal_website/static/js/runtime-main.446a86dc.js.map",
-    "static/js/2.e04c03b4.chunk.js": "/personal_website/static/js/2.e04c03b4.chunk.js",
-    "static/js/2.e04c03b4.chunk.js.map": "/personal_website/static/js/2.e04c03b4.chunk.js.map",
+    "static/js/2.ae649587.chunk.js": "/personal_website/static/js/2.ae649587.chunk.js",
+    "static/js/2.ae649587.chunk.js.map": "/personal_website/static/js/2.ae649587.chunk.js.map",
     "index.html": "/personal_website/index.html",
-    "precache-manifest.db81675224b14dde98913b849b5d124b.js": "/personal_website/precache-manifest.db81675224b14dde98913b849b5d124b.js",
+    "precache-manifest.9bd599ef62f35d7a132f9fd2ac9da8f0.js": "/personal_website/precache-manifest.9bd599ef62f35d7a132f9fd2ac9da8f0.js",
     "service-worker.js": "/personal_website/service-worker.js",
-    "static/css/main.f5283f9e.chunk.css.map": "/personal_website/static/css/main.f5283f9e.chunk.css.map",
-    "static/js/2.e04c03b4.chunk.js.LICENSE": "/personal_website/static/js/2.e04c03b4.chunk.js.LICENSE",
+    "static/css/main.c6ddecce.chunk.css.map": "/personal_website/static/css/main.c6ddecce.chunk.css.map",
+    "static/js/2.ae649587.chunk.js.LICENSE": "/personal_website/static/js/2.ae649587.chunk.js.LICENSE",
     "static/media/GithubLogo.svg": "/personal_website/static/media/GithubLogo.76d344f0.svg",
     "static/media/LinkedInLogo.svg": "/personal_website/static/media/LinkedInLogo.8220d480.svg",
     "static/media/MainSquare.jpg": "/personal_website/static/media/MainSquare.a47d8011.jpg",
-    "static/media/Resume.pdf": "/personal_website/static/media/Resume.9d5a489a.pdf"
+    "static/media/NokiaLogo.svg": "/personal_website/static/media/NokiaLogo.f6bf0ff4.svg",
+    "static/media/Resume.pdf": "/personal_website/static/media/Resume.2ac03337.pdf",
+    "static/media/URALogo.png": "/personal_website/static/media/URALogo.1d11565b.png",
+    "static/media/back-button.svg": "/personal_website/static/media/back-button.3fa8ebef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.446a86dc.js",
-    "static/js/2.e04c03b4.chunk.js",
-    "static/css/main.f5283f9e.chunk.css",
-    "static/js/main.c98dde0f.chunk.js"
+    "static/js/2.ae649587.chunk.js",
+    "static/css/main.c6ddecce.chunk.css",
+    "static/js/main.b434fe55.chunk.js"
   ]
 }
