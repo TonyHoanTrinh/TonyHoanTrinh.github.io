@@ -6,13 +6,11 @@ import LinkedInLogo from './images/LinkedInLogo.svg';
 import GithubLogo from './images/GithubLogo.svg';
 import HomeLogo from './images/MainSquare.jpg';
 
-import { BrowserRouter , Route, Link, Switch, NavLink } from 'react-router-dom';
+import { BrowserRouter , Route, Link } from 'react-router-dom';
 
 import Blog from './components/Blog';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
-
-
 
 const ColoredLine = ({ color }) => (
     <hr style={{
@@ -31,30 +29,30 @@ function App() {
 
                 <div class="tab">
 
-                    <NavLink to="/personal_website">
+                    <Link to="/personal_website">
                         <button class="tablinks" type="button">
                             Home
                         </button>
-                    </NavLink>
+                    </Link>
 
-                    <NavLink to="/resume">
+                    <Link to="/resume">
                         <button class="tablinks" type="button">
                             Resume
                         </button>
-                    </NavLink>
+                    </Link>
 
-                    <NavLink to="/projects">
+                    <Link to="/projects">
                         <button class="tablinks" type="button">
                             Projects
                         </button>
-                    </NavLink>
+                    </Link>
 
 
-                    <NavLink to="/blog">
+                    <Link to="/blog">
                         <button class="tablinks" type="button">
                            Blog 
                         </button>
-                    </NavLink>
+                    </Link>
 
 
                 </div>
@@ -101,7 +99,7 @@ function App() {
                         </React.Fragment>
 
 
-                        I'm a 3rd year Computer Science Student at the University of Guelph with a major in Computer Science and a minor in Statistics.
+                        I'm a 2nd year Coop Computer Science Student at the University of Guelph with a major in Computer Science and a minor in Statistics.
 
                         <React.Fragment>
                             <br>
@@ -111,7 +109,7 @@ function App() {
                         </React.Fragment>
 
 
-                        I just recently finished my co-op work term for Summer and Fall terms and heading back to school this Winter 2021 and TAing the CIS2910 course.
+                        I just recently finished a Research Assistantship in the Summer and a TAship and another Research Assistantship in the Fall Semester.
 
                         <React.Fragment>
                             <br>
@@ -121,7 +119,7 @@ function App() {
                         </React.Fragment>
 
 
-                        I am currently the 3rd year rep for the Society of Computing and Information Science (SOCIS) and Co-Organizer of the Guelph Coding Community (GCC).
+                        I am currently the VP Finance of the Society of Computing and Information Science (SOCIS) and Co-Organizer of the Guelph Coding Community (GCC).
                         <React.Fragment>
                             <br>
                             </br>
@@ -130,7 +128,7 @@ function App() {
                         </React.Fragment>
 
 
-                        I am interested in Machine Learning with a focus on Reinforcement Learning and other topics such as Discrete Mathematics, Math Visualizations and Data Science and constantly looking for new opportunities to expand my knowledge!
+                        I am interested in Machine Learning with a focus on Reinforcement Learning and other topics such as Discrete Mathematics, Math Visualizations and Blockchain and constantly looking for new opportunities to expand my knowledge!
 
                         <React.Fragment>
                             <br>
@@ -140,20 +138,17 @@ function App() {
                         </React.Fragment>
 
 
-                        Outside of work I like to read, meditate, play guitar, watch and play basketball and volunteer around my city!
+                        Outside of work I like to read, meditate, play guitar, watch and play basketball and volunteer at my local Buddhist temple!
 
                     </p>
 
                 </React.Fragment>
             )}/>
 
-            <div>
-                <Switch>
-                    <Route exact path = "/resume" component = {Resume} />
-                    <Route exact path = "/projects" component = {Projects} />
-                    <Route exact path = "/blog" component = {Blog} />
-                </Switch>
-            </div>
+
+            <Route path = "/resume" component = {Resume} />
+            <Route path = "/projects" component = {Projects} />
+            <Route path = "/blog" component = {Blog} />
 
         </header>
 
