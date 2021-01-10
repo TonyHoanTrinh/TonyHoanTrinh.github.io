@@ -1,7 +1,7 @@
 import React from 'react';
 import './Blog.css';
 
-import { BrowserRouter , Route, Link } from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 
 import BackButton from '../images/back-button.svg';
 
@@ -12,7 +12,9 @@ function TABlog() {
 
         <header>
 
-            <img class="backbtn" src={BackButton} alt = "BackButton"/>
+            <NavLink to="/blog">
+                  <img class="backbtn" src={BackButton} alt = "BackButton"/>
+            </NavLink>
  
             <div>
                 <h1 class="blogheader"> September 2019 - December 2019 (My Teaching Assistant experience at UoG) </h1>

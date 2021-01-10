@@ -4,7 +4,7 @@ import ResumePDF from '../images/Resume.pdf';
 function Resume() {
     return (
         <header>
-            <div>
+            <div class="indent">
                 <h1> Resume </h1>
                 
                 <iframe title = "ResumeView" src={ResumePDF}> </iframe>

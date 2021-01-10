@@ -5,33 +5,115 @@
     float: left;
     margin-left: 35px;
     margin-right: 35px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
 }
-  
+
 .cardblog:hover {
     box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
 }
-  
-.containerblog {
-    padding: 2px 16px;
- }
 
-img.cardicons {
-    margin-top: 10px;
+h4 {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+  
+img.uralogostyle {
+    margin-top: 32px;
+    margin-bottom: 11px;
+    height: 95%;
+    width: 95%;
+}
+
+img.uoglogostyle {
+    margin-top: 18px;
     height: 50%;
     width: 50%;
 }
 
+img.nokialogostyle {
+    margin-top: 80px;
+    margin-bottom: 61px;
+    height: 90%;
+    width: 90%;
+}
+
+img.nbapicturestyle {
+    margin-top: 32px;
+    margin-bottom: 11px;
+    height: 95%;
+    width: 95%;
+}
+
+img.mandelbrotpicturestyle {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    height: 95%;
+    width: 95%;
+}
+
+img.personalwebsitepicturestyle {
+    margin-top: 18px;
+    margin-bottom: 7px;
+    height: 95%;
+    width: 95%;
+}
+
+img.eulerpicturestyle {
+    margin-top: 32px;
+    margin-bottom: 11px;
+    height: 95%;
+    width: 95%;
+}
+
+img.cpppicturestyle {
+    margin-top: 42px;
+    margin-bottom: 41px;
+    height: 95%;
+    width: 95%;
+}
+
+img.swiftpicturestyle {
+    margin-top: 12px;
+    margin-bottom: 1px;
+    height: 85%;
+    width: 80%;
+}
+
+img.visualbasicpicturestyle {
+    margin-top: 32px;
+    margin-bottom: 11px;
+    height: 95%;
+    width: 95%;
+}
+
+
+
+
+
 .readbtn {
-    background-color: DodgerBlue;
+    background-color: #35b234;
     border: none;
     color: white;
     padding: 12px 30px;
     cursor: pointer;
     font-size: 20px;
-
-    margin-left: 76px;
-    margin-bottom: 40px;
+    width: 100%;
 }
+
+.githubbtn {
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+}
+
+
+
 
 .backbtn {
     height: 35px;
@@ -51,5 +133,6 @@ p.bloginformation {
 h1.blogheader {
     margin-left: 8%;
     margin-right: 8%;
+    text-align: center;
 }
 

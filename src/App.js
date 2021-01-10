@@ -6,22 +6,17 @@ import LinkedInLogo from './images/LinkedInLogo.svg';
 import GithubLogo from './images/GithubLogo.svg';
 import HomeLogo from './images/MainSquare.jpg';
 
-import { BrowserRouter , Route, Link, Switch, NavLink } from 'react-router-dom';
+import { BrowserRouter , Route, Switch, NavLink } from 'react-router-dom';
 
 import Blog from './components/Blog';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
+import Contact from './components/Contact';
 
+import URABlog from './components/URABlog.js';
+import TABlog from './components/TABlog.js';
+import NokiaBlog from './components/NokiaBlog.js';
 
-
-const ColoredLine = ({ color }) => (
-    <hr style={{
-        color: color,
-        backgroundColor: color,
-        width: 1260,
-        height: 1
-    }}/>
-);
 
 function App() {
   return (
@@ -56,11 +51,18 @@ function App() {
                         </button>
                     </NavLink>
 
+                    <NavLink to="/contact">
+                        <button class="tablinks" type="button">
+                           Contact 
+                        </button>
+                    </NavLink>
+
 
                 </div>
 
             <Route exact path = "/personal_website" render = {props => (
                 <React.Fragment>
+                    <div class="indent">
                     <h1>
                         Tony Hoan Trinh 
 
@@ -76,9 +78,7 @@ function App() {
                     </h1>
 
 
-                    <p>
-                    </p>
-                    <ColoredLine color="black" />
+                    <hr></hr>
 
                     <img src={HomeLogo}  class = "main" alt = "HomeLogo"/>
 
@@ -143,8 +143,10 @@ function App() {
                         Outside of work I like to read, meditate, play guitar, watch and play basketball and volunteer around my city!
 
                     </p>
-
+                
+                </div>
                 </React.Fragment>
+
             )}/>
 
             <div>
@@ -152,6 +154,10 @@ function App() {
                     <Route exact path = "/resume" component = {Resume} />
                     <Route exact path = "/projects" component = {Projects} />
                     <Route exact path = "/blog" component = {Blog} />
+                    <Route exact path = "/contact" component = {Contact} />
+                    <Route exact path="/urablog" component={URABlog} />
+                    <Route exact path="/tablog" component={TABlog} />
+                    <Route exact path="/nokiablog" component={NokiaBlog} />
                 </Switch>
             </div>
 

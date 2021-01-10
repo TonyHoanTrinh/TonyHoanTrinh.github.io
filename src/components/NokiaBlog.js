@@ -1,19 +1,19 @@
 import React from 'react';
 import './Blog.css';
 
-import NokiaLogo from '../images/NokiaLogo.svg';
+import {NavLink} from 'react-router-dom';
+
 import BackButton from '../images/back-button.svg';
 
-import { BrowserRouter , Route, Link } from 'react-router-dom';
 
 function NokiaBlog() {
     return (
-        // WARNING: May need a <BrowserRouter> here
         <header>
 
-
-            <img class="backbtn" src={BackButton} alt = "BackButton"/>
-
+            <NavLink to="/blog">
+                  <img class="backbtn" src={BackButton} alt = "BackButton"/>
+            </NavLink>
+ 
             <div>
                 <h1 class="blogheader"> April 2020 - December 2020 (My experience being a Co-op student at Nokia) </h1>
 
@@ -42,21 +42,9 @@ function NokiaBlog() {
                     The company still produces phones but shifted their main focus to telecommunications services across the world
                     for customers such as AT and T, Bell, Verizon etc. They are 1 of the biggest telecommunications companies in the world and are a leader in 5G and IOT technologies.
                     The current CEO is Pekka Lundmark but had other leaders in the past such as Jorma Ollila and Rajeev Suri.
-
-                    <React.Fragment>
-                        <br></br>
-                        <br></br>
-                    </React.Fragment>
-
                     In 2016, Nokia acquired Alcatel-Lucent and acquired Bell Labs. Bell Labs is known for it's rich history of many inventions and patents such as
                     the Unix operating system and several programming languages such as C and C++. The research and scientific company was renamed to Nokia Bell Labs from
                     the acquisition.
-
-                    <React.Fragment>
-                        <br></br>
-                        <br></br>
-                    </React.Fragment>
-
                     There are many branches across the world owned by Nokia from US to places in India to Europe. The Nokia Ottawa branch I was working at had a focus on
                     software development used for their telecommunications services, network equipment and IOT technologies.
 
@@ -68,15 +56,11 @@ function NokiaBlog() {
                     My co-op term was split into 2 sections, the first 4 months and the last 4 months.
                     In the first 4 months I was trained and mentored by the senior co-op student and in my last 4 months I became the mentor to 
                     the new junior co-op student incoming. 
-
-                    <React.Fragment>
-                        <br></br>
-                    </React.Fragment>
-
                     I had many goals during my work term and had goals for both of the first 4 months and the last 4 months.
                     I wanted to develop goals that were related to my job tasks and goals that would push outside my comfort zone to learn new things.
 
                     <React.Fragment>
+                        <br></br>
                         <br></br>
                     </React.Fragment>
 
@@ -111,11 +95,6 @@ function NokiaBlog() {
                     In my last 4 months I became the senior co-op student and my goals became more focused to becoming a stronger mentor/leader and 
                     continuing my technical prowess and my soft skills. I had goals such as improving my suggestive advice for improvement, mentoring and 
                     teaching skills, database knowledge and implementation (MariaDB/MySQL) and expanding my interests to other opportunities provided by Nokia.
-
-                    <React.Fragment>
-                        <br></br>
-                    </React.Fragment>
-
                     I had the goal of improving my suggestive advice for improvement and my higher level knowledge of the organization. Often times we get new technologies
                     available to use and Nokia provides many workshops that teach us how to use them. But it is up to us to adopt them for the purposes of our 
                     teams. In the last 4 months I wanted to improve the productivity of not just our team but our organization as well. Myself and another colleague
@@ -123,29 +102,14 @@ function NokiaBlog() {
                     and because it wasn't consolidated to a single or a few mediums it became difficult for many issues to be fixed by our software teams.
                     So I took it upon myself to attend more of the Nokia workshops to see what we had available in terms of communication software, and I was able
                     to build a report to suggest to our director to change the medium of communication which I think helped the productivity of our teams.
-
-                    <React.Fragment>
-                        <br></br>
-                    </React.Fragment>
-
                     For my other goal of improving my mentoring skills. I already had some skills in teaching from my previous TA position, and so I already
                     had a bit of a background in teaching and being a mentor. But I wanted to improve on those skills and also provide a great experience to the
                     junior co-op student for their own learning and to make it easier for them as we were all remote. I made sure to have a lot of consistent meetings
                     with the student and also made sure to get them involved in all the tasks, so they would be comfortable doing them on their own and to eventually
                     teach the next student. During this, the student and I developed a strong bond of trust and reliability which led to a very productive work term for both of us.
-
-                    <React.Fragment>
-                        <br></br>
-                    </React.Fragment>
-
                     During my last 4 months I had to implement a new database table for a certain task we were doing. I made a goal to improve my knowledge of databases
                     and the implementation of them using MySQL/MariaDB. I looked at some online courses provided by Nokia and worked with the Senior Software Engineer and we
                     were able to create a MySQL database and made sure to follow all the best database practices in terms of naming, typing and consistency. 
-
-                    <React.Fragment>
-                        <br></br>
-                    </React.Fragment>
-
                     And for my last goal I wanted to work on some of the other opportunities provided by Nokia. I was able to work on a data analysis project provided
                     by another Nokia colleague from the US. They gave me some data and I did an analysis on it which helped them improve their logistics and business decisions.
                     I used R and Python for the analysis. I already had experience using R and Python from my previous URA however I was able to apply these skills in a different way than what I was used to
@@ -160,11 +124,6 @@ function NokiaBlog() {
                     Soft skills will never go away and are often just as important if not more important than hard skills and during this time I was able to 
                     work on my soft skills considerably and improve them to a high degree. With my hard skills I learned a lot about Power BI, MySQL/MariaDB, VBA and Excel and
                     improve my existing knowledge on HTML, CSS, JavaScript, R and Python.
-
-                    <React.Fragment>
-                        <br></br>
-                    </React.Fragment>
-
                     I also got to work on the project management side of software development and learn out the structure of business at a high level.
                     I feel like combining those skills with my technical and soft skills is a very effective combination and will lead me to
                     major success in my future work.
@@ -178,36 +137,16 @@ function NokiaBlog() {
                     At my work we had our documentation website where we outlined guides for all of our internal software products.
                     This website was converted from our previous website and had to be regularly maintained and updated. With this I used
                     Markdown, CSS and JavaScript for this documentation.
-
-                    <React.Fragment>
-                        <br></br>
-                    </React.Fragment>
-
                     I would also work on many Excel sheets and this often involved running, creating and fixing VBA macros.
                     We had a lot of Excel sheets used for documenting and auditing purposes and these macros were important for improving
                     the accuracy and productivity of our work.
-
-                    <React.Fragment>
-                        <br></br>
-                    </React.Fragment>
-
                     There were also a lot of business intelligence (BI) visualizations that had to be created for use by a lot of our senior managers.
                     I created these BI visualizations using Microsoft Power BI and had to use data supplied by our database.
                     Our database was implemented using MySQL/MariaDB and I would regularly maintain this database manually through queries or through the use of Perl/Python scripts
                     ran through our Red Hat Linux VM.
-
-                    <React.Fragment>
-                        <br></br>
-                    </React.Fragment>
-
                     Nokia also provided a lot of opportunities to expand my learning and get involved in other tasks, and I was able to work on
                     a data analysis project with a colleague from the US. I used R and Python for data analysis on data provided
                     by this colleague for improving employee engagement.
-
-                    <React.Fragment>
-                        <br></br>
-                    </React.Fragment>
-
                     In addition, I used a lot of tools that are often used in the software development world such as Git, Bash Scripting, JIRA, SonarQube
                     etc.
 
@@ -232,11 +171,6 @@ function NokiaBlog() {
                     R and Python etc.
                     A lot of those skills I had already previous learned from my coursework and previous work experience such as with web development and data analysis but I had
                     to learn a lot of new things as well such as with databases and Power BI.
-
-                    <React.Fragment>
-                        <br></br>
-                    </React.Fragment>
-
                     There were a lot of meetings that I attended with directors, managers, VPs and other co-op students and I felt very connected to the company being a part of those.
                     I got a lot of opportunities to work with the project management side of things and learned a lot about
                     how software projects are initialized, created, designed and implemented and all the information associated with them.
@@ -250,18 +184,8 @@ function NokiaBlog() {
                     In my last 8 months, I learned a lot. The position teaches you a wide range of different skills from soft skills such as teamwork, cooperation and leadership to
                     hard skills such as web development, business intelligence, databases and data analysis. It also teaches you a lot about how businesses work and
                     how products are created and how projects are managed. You get to work and talk with a wide variety of people from developers to directors.
-
-                    <React.Fragment>
-                        <br></br>
-                    </React.Fragment>
-
                     This was a very valuable position and I recommend it for anyone who has interest in both the business and tech side of things as you get to 
                     work and interact with a wide variety of different people and aspects of a tech company.
-
-                    <React.Fragment>
-                        <br></br>
-                    </React.Fragment>
-
                     The company Nokia wants you to succeed and everyone there is willing to help you and make you become the best person that you could be. 
                     The culture and work environment is both friendly and helpful but also still wanting to push you to become better and smarter with your work.
                     I will always appreciate this opportunity and never forget this experience.

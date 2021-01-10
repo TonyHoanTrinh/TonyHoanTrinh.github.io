@@ -1,26 +1,9 @@
 import React from 'react';
-import { BrowserRouter , Route, Link, Switch, NavLink } from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 import './Blog.css';
 
 import BackButton from '../images/back-button.svg';
 
-
-
-import HomePage from './Blog.js';
-
-function URABlog() {
-    return (
-      <BrowserRouter>
-        <div>
-          <Switch>
-            <Route exact path="/blog" component={HomePage} />
-            <Route exact path="/urablog" component={URABlogHome} />
-          </Switch>
-        </div>
-      </BrowserRouter>
-    );
-  }
- 
 
 function URABlogHome() {
  
@@ -32,7 +15,6 @@ function URABlogHome() {
               <img class="backbtn" src={BackButton} alt = "BackButton"/>
             </NavLink>
             
-            {/*
             <h1 class="blogheader"> April 2019 - August 2019 (My Undergraduate Research Assistant experience at UoG) </h1>
 
             <p class="bloginformation"> 
@@ -185,7 +167,6 @@ function URABlogHome() {
 
             August 2019
         </p>
-            */}
  
         </header>
         </div>
